@@ -1,0 +1,28 @@
+.taskList-search {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.taskList-search button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.taskList-search button.edit-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.taskList-search button.delete-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.taskList-search button:hover {
+    opacity: 0.8;
+}

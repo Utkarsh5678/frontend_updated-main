@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.signup-container {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #FFA500, #FF6347);
+}
+
+.signup-container h2 {
+    margin-left: 150px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form {
+    margin-top: 90px;
+    text-align: left;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 85%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form button[type="submit"] {
+    width: 90%;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.signup-footer {
+    margin-top: 20px;
+}
+
+.signup-footer p {
+    margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-footer p a {
+    color: #007BFF;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-footer p a:hover {
+    text-decoration: underline;
+}
